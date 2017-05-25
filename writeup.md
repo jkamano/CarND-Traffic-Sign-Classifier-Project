@@ -78,6 +78,10 @@ The confusion is quite strange because both signs have different colors and diff
 
 The confusion is probably related to the size of the "No entry" sign in the example. The sign is sideways and quite far away in the image, compared to the examples in the training set which are more centered.
 
+```
+One may say the model is overfitting since the performance on the test set was superior (94%) and now is only 90%, but this 90% is actually not representative since the set of new images is very small.
+```
+
 * 2 - Speed limit (50km/h)
 * 35 - Ahead only
 * 1 - Speed limit (30km/h)
